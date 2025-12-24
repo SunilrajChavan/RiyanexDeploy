@@ -1,0 +1,19 @@
+:root {
+  /* Brand gradient extracted from logo text 'Riyanex' */
+  --primary-gradient: linear-gradient(90deg, #7be34e 0%, #31c48d 45%, #0aa6c2 100%);
+  --primary-1: 123,227,78; /* rgb for #7be34e */
+  --primary-2: 49,196,141; /* rgb for #31c48d */
+  --primary-3: 10,166,194; /* rgb for #0aa6c2 */
+
+  /* Bluish site background inspired by attached image */
+  --background-dark: #04182a;
+  --background-mid: #021023;
+  --background-deep: #01040a;
+
+  /* Text and UI variables */
+  --text-muted: rgba(230,240,246,0.75);
+  --card-bg: rgba(15,25,40,0.45);
+  --glass-bg: rgba(20,28,40,0.55);
+  --accent-border: rgba(var(--primary-2),0.12);
+  --card-radius: 20px;
+}
